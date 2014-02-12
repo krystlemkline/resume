@@ -1,0 +1,69 @@
+body {
+    font-family: Book Antiqua;
+    margin: 0;
+}
+
+div {
+    border-radius: 5px;
+}
+
+#header {
+    background-color: #ced7ee;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 120px;
+    margin: 0;
+}
+
+#name {
+    font-weight: bold;
+    /*font-size: 10em;*/
+}
+
+#email {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #ced7ee;
+    clear: both;
+    /*height: 20em;*/
+}
+
+#contents {
+    display: table;
+    margin-top: 140px;
+}
+
+.left {
+    display: table-cell;
+    background-color: green;
+    width: 200px;
+}
+
+.right {
+    background-color: red;
+    display: table-cell;
+    padding: 50px;
+    font-size: 1.6em;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.skills {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
